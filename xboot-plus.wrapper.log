@@ -1,0 +1,59 @@
+2019-06-06 10:31:42,927 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-06-06 10:31:44,037 INFO  - Installing the service with id 'xbootServiceID'
+2019-06-06 10:31:44,051 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   在 WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] args)
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-06-06 10:33:03,485 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-06-06 10:33:03,977 INFO  - Installing the service with id 'xbootServiceID'
+2019-06-06 10:33:14,535 DEBUG - Completed. Exit code is 0
+2019-06-06 10:33:44,377 INFO  - Starting ServiceWrapper in the service mode
+2019-06-06 10:33:44,425 INFO  - Starting java -Xmx256m -jar xboot-plus.jar
+2019-06-06 10:33:44,428 INFO  - Starting java -Xmx256m -jar xboot-plus.jar
+2019-06-06 10:33:46,754 INFO  - Started process 9892
+2019-06-06 10:33:46,759 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-06-06 10:39:01,010 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-06-06 10:39:01,672 INFO  - Uninstalling the service with id 'xbootServiceID'
+2019-06-06 10:39:01,675 WARN  - The service with id 'xbootServiceID' is running. It may be impossible to uninstall it
+2019-06-06 10:39:01,690 FATAL - Failed to uninstall the service with id 'xbootServiceID'. WMI Error code is 'AccessDenied'
+2019-06-06 10:39:01,691 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-06-06 10:39:55,066 DEBUG - Starting ServiceWrapper in the CLI mode
+2019-06-06 10:39:55,547 INFO  - Uninstalling the service with id 'xbootServiceID'
+2019-06-06 10:39:55,549 WARN  - The service with id 'xbootServiceID' is running. It may be impossible to uninstall it
+2019-06-06 10:39:55,558 FATAL - Failed to uninstall the service with id 'xbootServiceID'. WMI Error code is 'AccessDenied'
+2019-06-06 10:39:55,559 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   在 winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   在 winsw.WrapperService.Main(String[] args)
+2019-06-06 10:42:08,723 INFO  - Stopping xbootServiceID
+2019-06-06 10:42:08,724 DEBUG - ProcessKill 9892
+2019-06-06 10:42:08,888 INFO  - Found child process: 22944 Name: conhost.exe
+2019-06-06 10:42:08,943 INFO  - Stopping process 22944
+2019-06-06 10:42:08,949 INFO  - Send SIGINT 22944
+2019-06-06 10:42:08,951 WARN  - SIGINT to 22944 failed - Killing as fallback
+2019-06-06 10:42:08,953 INFO  - Stopping process 9892
+2019-06-06 10:42:08,958 INFO  - Send SIGINT 9892
+2019-06-06 10:42:08,958 WARN  - SIGINT to 9892 failed - Killing as fallback
+2019-06-06 10:42:08,961 INFO  - Finished xbootServiceID
+2019-06-06 10:42:08,963 DEBUG - Completed. Exit code is 0
+2019-06-06 10:43:34,157 INFO  - Starting ServiceWrapper in the service mode
+2019-06-06 10:43:34,179 INFO  - Starting java -Xmx256m -jar xboot-plus.jar
+2019-06-06 10:43:34,183 INFO  - Starting java -Xmx256m -jar xboot-plus.jar
+2019-06-06 10:43:34,299 INFO  - Started process 16304
+2019-06-06 10:43:34,304 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2019-06-06 10:44:15,736 INFO  - Stopping xbootServiceID
+2019-06-06 10:44:15,737 DEBUG - ProcessKill 16304
+2019-06-06 10:44:15,877 INFO  - Found child process: 11920 Name: conhost.exe
+2019-06-06 10:44:15,928 INFO  - Stopping process 11920
+2019-06-06 10:44:15,932 INFO  - Send SIGINT 11920
+2019-06-06 10:44:15,934 WARN  - SIGINT to 11920 failed - Killing as fallback
+2019-06-06 10:44:15,936 INFO  - Stopping process 16304
+2019-06-06 10:44:15,940 INFO  - Send SIGINT 16304
+2019-06-06 10:44:15,941 WARN  - SIGINT to 16304 failed - Killing as fallback
+2019-06-06 10:44:15,943 INFO  - Finished xbootServiceID
+2019-06-06 10:44:15,945 DEBUG - Completed. Exit code is 0
